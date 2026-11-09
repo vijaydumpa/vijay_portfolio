@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d35">
+  <meta name="description" content="The personal portfolio of Dumpa Jaya Vijay, a first-year Computer Science and Design student.">
+  <title>Dumpa Jaya Vijay | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Dumpa Jaya Vijay, home">
+      <span class="wordmark-mark" aria-hidden="true">J</span>
+      <span>Dumpa Jaya Vijay</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+      <a href="#home" aria-current="page">Home</a>
+      <a href="#about">About</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <span class="header-index">STUDENT PORTFOLIO <span>／</span> 2026</span>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> B.TECH FIRST YEAR <span class="eyebrow-divider">/</span> CSD — A</p>
+        <h1 id="hero-title">Hello, I’m<br><span class="hero-name">Dumpa</span><br><span class="hero-name hero-name-last">Jaya Vijay<span class="name-period">.</span></span></h1>
+        <p class="hero-subtitle">B.Tech First Year Student <span>|</span> Computer Science and Design</p>
+        <p class="hero-intro">Beginning with curiosity. Building a foundation in technology, design, and the ideas that bring them together.</p>
+        <a class="button button-primary" href="#profile"><span>Explore My Profile</span><span class="button-arrow" aria-hidden="true">↘</span></a>
+        <span class="hero-caption">A student, at the start of the journey.</span>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Profile photograph area">
+        <div class="visual-topline"><span>01 — INTRODUCTION</span><span>PROFILE / 01</span></div>
+        <div class="portrait-frame">
+          <div class="portrait-placeholder" aria-hidden="true">
+            <span class="portrait-sun"></span>
+            <span class="portrait-head"></span>
+            <span class="portrait-neck"></span>
+            <span class="portrait-shoulders"></span>
+            <span class="portrait-monogram">DJV</span>
+          </div>
+          <img class="profile-photo" src="profile.jpg" alt="Portrait of Dumpa Jaya Vijay" onload="this.closest('.portrait-frame').classList.add('has-photo')" onerror="this.hidden = true">
+          <span class="photo-note">PROFILE PHOTOGRAPH<br><span>REPLACE WITH profile.jpg</span></span>
+          <span class="photo-corner" aria-hidden="true">✳</span>
+        </div>
+        <div class="visual-bottomline"><span>ROLL NO. 25A51A4418</span><span>FIG. 01</span></div>
+        <span class="visual-side-note" aria-hidden="true">LEARNING IN PROGRESS</span>
+      </div>
+      <span class="hero-vertical-index" aria-hidden="true">CSD / A</span>
+    </section>
+
+    <div class="section-rule" aria-hidden="true"><span>01</span><span></span><span>ABOUT THE STUDENT</span></div>
+
+    <section class="about section-wrap" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">A LITTLE ABOUT ME <span class="eyebrow-divider">/</span> 01</p>
+        <h2 id="about-title">Learning with<br><em>intention.</em></h2>
+      </div>
+      <div class="about-copy reveal">
+        <span class="opening-quote" aria-hidden="true">“</span>
+        <p>I am Dumpa Jaya Vijay, a first-year B.Tech student pursuing Computer Science and Design. I am interested in learning new technologies, exploring creative ideas, and developing my technical and problem-solving skills.</p>
+        <div class="about-footnote"><span>CURIOUS BY NATURE</span><span class="footnote-line"></span><span>GROWING EVERY DAY</span></div>
+      </div>
+    </section>
+
+    <section class="profile-section" id="profile" aria-labelledby="profile-title">
+      <div class="section-wrap profile-inner">
+        <div class="profile-heading reveal">
+          <p class="eyebrow eyebrow-light">THE DETAILS <span class="eyebrow-divider">/</span> 02</p>
+          <h2 id="profile-title">Student<br><em>profile.</em></h2>
+          <p class="profile-heading-note">The essentials, neatly<br>in one place.</p>
+          <span class="profile-index" aria-hidden="true">DJV<br>25</span>
+        </div>
+        <div class="profile-card reveal">
+          <div class="profile-card-top"><span>ACADEMIC RECORD</span><span>01 — 07</span></div>
+          <dl class="profile-grid">
+            <div class="profile-item"><dt>Full name</dt><dd>Dumpa . Jaya Vijay</dd></div>
+            <div class="profile-item"><dt>Roll number</dt><dd>25A51A4418</dd></div>
+            <div class="profile-item"><dt>Branch</dt><dd>Computer Science and Design</dd></div>
+            <div class="profile-item"><dt>Section</dt><dd>CSD - A</dd></div>
+            <div class="profile-item"><dt>Academic year</dt><dd>B.Tech First Year</dd></div>
+            <div class="profile-item"><dt>Course</dt><dd>Bachelor of Technology</dd></div>
+            <div class="profile-item profile-item-wide"><dt>College</dt><dd class="editable-placeholder">[Add college name]</dd></div>
+          </dl>
+          <div class="profile-card-bottom"><span>PERSONAL DETAILS</span><span>EDITABLE AT SOURCE <span aria-hidden="true">↗</span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-wrap" aria-labelledby="journey-title">
+      <div class="journey-heading reveal">
+        <p class="eyebrow">WHERE I AM <span class="eyebrow-divider">/</span> 03</p>
+        <h2 id="journey-title">The academic<br><em>starting point.</em></h2>
+      </div>
+      <div class="journey-list reveal">
+        <div class="journey-row"><span class="journey-number">01</span><span class="journey-label">CURRENT STATUS</span><span class="journey-value">First Year</span><span class="journey-mark" aria-hidden="true">↗</span></div>
+        <div class="journey-row"><span class="journey-number">02</span><span class="journey-label">DEGREE</span><span class="journey-value">Bachelor of Technology</span><span class="journey-mark" aria-hidden="true">↗</span></div>
+        <div class="journey-row"><span class="journey-number">03</span><span class="journey-label">DEPARTMENT</span><span class="journey-value">Computer Science and Design</span><span class="journey-mark" aria-hidden="true">↗</span></div>
+        <div class="journey-row"><span class="journey-number">04</span><span class="journey-label">SECTION</span><span class="journey-value">A</span><span class="journey-mark" aria-hidden="true">↗</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-wrap contact-inner reveal">
+        <div class="contact-copy">
+          <p class="eyebrow eyebrow-light">OPEN TO A CONVERSATION <span class="eyebrow-divider">/</span> 04</p>
+          <h2 id="contact-title">Let’s<br><em>connect.</em></h2>
+          <p class="contact-message">Have an idea, a question, or something interesting to share? I’d be glad to hear from you.</p>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-label">EMAIL</span>
+          <a class="email-placeholder" href="mailto:vijaydumpa58@gmail.com">vijaydumpa58@gmail.com</a>
+          <span class="contact-availability"><span class="status-dot"></span> STUDENT · CSD — A</span>
+        </div>
+        <span class="contact-decoration" aria-hidden="true">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-name" href="#home">Dumpa Jaya Vijay<span>.</span></a>
+    <span class="footer-details">B.TECH FIRST YEAR <span>·</span> COMPUTER SCIENCE AND DESIGN <span>·</span> SECTION A</span>
+    <a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
